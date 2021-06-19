@@ -4,20 +4,14 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>マツモトイワキのウェブサイト</title>
+        <title>管理画面</title>
         <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
         <link rel="stylesheet" href="<c:url value='/css/style.css' />">
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>ヘッダー</h1>
-            </div>
-            <div id="content">
-                ${param.content}
-            </div>
-            <div id="footer">
-                フッター
+                <h1>管理画面</h1>
             </div>
         </div>
     </body>
