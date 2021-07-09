@@ -1,4 +1,4 @@
-package cotrollers.management;
+package controllers.management;
 
 import java.io.IOException;
 
@@ -13,13 +13,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class ManagementTopPage
  */
 @WebServlet("/managementtoppage")
-public class ManagementTopPage extends HttpServlet {
+public class ManagementTopPageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ManagementTopPage() {
+    public ManagementTopPageServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

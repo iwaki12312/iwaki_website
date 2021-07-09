@@ -13,6 +13,7 @@
             <div id="header">
                 <h1>管理画面</h1>
             </div>
+            <p><a href="<c:url value='index.html' />">トップページへ</a></p>
         </div>
     </body>
 </html>

@@ -4,9 +4,9 @@
     <c:param name="content">
         <div id="wrapper">
             <div id="header">
-                <h1>トップページ</h1>
+                <h1>再生画面</h1>
             </div>
-            <p><a href="<c:url value='play' />">再生画面へ</a></p>
+            <p><a href="<c:url value='index.html' />">トップページへ</a></p>
         </div>
-    </c:param>
+  </c:param>
 </c:import>
