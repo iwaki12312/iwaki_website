@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ManagementTopPage
  */
-@WebServlet("/managementtoppage")
+@WebServlet("/management")
 public class ManagementTopPageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

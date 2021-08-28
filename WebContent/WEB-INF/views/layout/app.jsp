@@ -4,20 +4,26 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>マツモトイワキのウェブサイト</title>
+        <title>iwaki_website</title>
         <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
         <link rel="stylesheet" href="<c:url value='/css/style.css' />">
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>ヘッダー</h1>
+                <p id="headerstring">サンプル再生WEBサイト</p>
+	            <form id="searchform" action="play">
+	                <input type="text" name="search" value="${search}">
+	                <button type="submit">楽曲を検索</button>
+	            </form>
             </div>
             <div id="content">
                 ${param.content}
             </div>
             <div id="footer">
-                フッター
+                <p id="name">by Iwaki Matsumoto.</p>
+                <p id="gomanagement"><a href="<c:url value='management'/>">管理</a></p>
+
             </div>
         </div>
     </body>

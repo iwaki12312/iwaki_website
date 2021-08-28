@@ -3,10 +3,8 @@
 <c:import url="../layout/app.jsp">
     <c:param name="content">
         <div id="wrapper">
-            <div id="header">
-                <h1>トップページ</h1>
-            </div>
-            <p><a href="<c:url value='play' />">再生画面へ</a></p>
+            <h1>トップページ</h1>
+            <p id="link"><a href="<c:url value='play' />">再生画面へ</a></p>
         </div>
     </c:param>
 </c:import>
