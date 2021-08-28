@@ -4,20 +4,16 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>管理画面</title>
+        <title>編集画面</title>
         <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
         <link rel="stylesheet" href="<c:url value='/css/style.css' />">
     </head>
     <body>
         <div id="wrapper">
-        	<div id="menu">
-	            <h1>&lt;管理画面&gt;</h1>
-	            <h2>--Menu--</h2>
-	            <p id="link"><a href="<c:url value='management/index' />">楽曲情報を編集する</a></p>
-	            <h2>--------</h2>
-	        </div>
 
-	        <p id="link"><a href="<c:url value='/index.html' />">トップページへ</a></p>
+        <h1><c:out value="${name}"/></h1>
+
+	        <p id="link"><a href="<c:url value='index.html' />">トップページへ</a></p>
 
         </div>
     </body>
